@@ -6,10 +6,10 @@ void inicializaAcel (void)
 {
   
  mpu.initialize();
- mpu.setFullScaleAccelRange(3);                       // Ajusta a escala do acelarometro para 3 
- mpu.setXAccelOffset(769);                            // Ajusta os offsets específicos ao nosso MPU
+ mpu.setFullScaleAccelRange(3);                       // Ajusta a escala do acelarometro para 3                          
+                                                      // Ajusta os offsets específicos ao nosso MPU
  mpu.setYAccelOffset(1115);
- mpu.setZAccelOffset(-1625);
+ mpu.setZAccelOffset(80);
   
 }
 
